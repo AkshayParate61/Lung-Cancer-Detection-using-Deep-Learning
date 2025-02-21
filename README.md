@@ -117,7 +117,7 @@ After submission, the result page will show whether the image indicates a lung t
 - **Flask Web Application**: The `Flask` framework is used to build the web application. It includes routes for the homepage, lung cancer detection page, and result page.
 - **Image Processing**: The `load_and_preprocess_image` function resizes and normalizes the image before passing it to the model.
 - **Model Prediction**: The model (`lung_cancer_model`) is loaded and used to predict the presence of lung cancer.
-- **Error Handling**: The application handles missing or invalid files gracefully, providing feedback to the 
+- **Error Handling**: The application handles missing or invalid files gracefully, providing feedback to the user.
 
 
 
